@@ -1,7 +1,22 @@
 {
     "name": "sweeper",
-    "description": "A tool to delete expired items in Pocket",
+    "description": "A job to delete expired items in Pocket",
     "repository": "https://github.com/naoty/sweep",
     "logo": "http://robohash.org/sweeper",
-    "keywords": ["pocket", "go"]
+    "keywords": ["pocket", "go"],
+    "env": {
+        "POCKET_CONSUMER_KEY": {
+            "description": "A consumer key for your Pocket application",
+            "required": true
+        },
+        "POCKET_ACCESS_TOKEN": {
+            "description": "An access token for your Pocket application",
+            "required": true
+        },
+        "POCKET_EXPIRATION": {
+            "description": "An expiration hours after which items are deleted",
+            "value": "24"
+        }
+    },
+    "addons": ["scheduler"]
 }
