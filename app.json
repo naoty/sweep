@@ -1,0 +1,7 @@
+{
+    "name": "sweeper",
+    "description": "A tool to delete expired items in Pocket",
+    "repository": "https://github.com/naoty/sweep",
+    "logo": "http://robohash.org/sweeper",
+    "keywords": ["pocket", "go"]
+}
