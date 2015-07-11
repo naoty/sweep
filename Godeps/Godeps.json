@@ -7,6 +7,10 @@
 			"Rev": "8102d0ed5ea2709ade1243798785888175f6e415"
 		},
 		{
+			"ImportPath": "github.com/motemen/go-pocket/api",
+			"Rev": "9276766dc3682820d4f97772feefda858544872f"
+		},
+		{
 			"ImportPath": "golang.org/x/crypto/ssh/terminal",
 			"Rev": "4831188890de893ae55d9ecd1bbafc340ce0ff9f"
 		}
